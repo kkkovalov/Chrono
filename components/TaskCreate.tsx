@@ -10,7 +10,6 @@ const CreateTask : React.FC = () => {
     const [taskText, setTask] = useState<string>('');
     const [taskList, updateList] = useState<any[]>([]);
 
-
     const taskListCollection = collection(database, 'taskCollection');
     // console.log(taskListCollection);
     // const handleTaskChange = (event: { target: { value: SetStateAction<string>; }; }) => {
