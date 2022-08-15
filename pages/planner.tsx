@@ -15,7 +15,7 @@ const Planner : NextPage = () => {
     const username = 'Vlad';
 
     const [tasks, setTasks] = useState<any[]>([]);
-
+// new comment for original branch
     const taskListCollection = collection(database, 'taskCollection');
 
     useEffect(()=> {
